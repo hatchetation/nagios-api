@@ -11,7 +11,7 @@ setup(name='nagios-api',
       url='https://github.com/xb95/nagios-api',
       packages=['nagios'],
       scripts=['nagios-cli', 'nagios-api'],
-      requires=[
+      install_requires=[
         'diesel(>=3.0)',
         'greenlet(==0.3.4)',
         'requests'
