@@ -12,8 +12,8 @@ setup(name='nagios-api',
       packages=['nagios'],
       scripts=['nagios-cli', 'nagios-api'],
       install_requires=[
-        'diesel(>=3.0)',
-        'greenlet(==0.3.4)',
+        'diesel >= 3.0',
+        'greenlet == 0.3.4',
         'requests'
       ]
      )
